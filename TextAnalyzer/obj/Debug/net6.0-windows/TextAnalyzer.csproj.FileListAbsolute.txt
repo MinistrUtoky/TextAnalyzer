@@ -23,3 +23,5 @@ C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\net6.0-windows\
 C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\net6.0-windows\TextAnalyzer.pdb
 C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\net6.0-windows\TextAnalyzer.genruntimeconfig.cache
 C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\net6.0-windows\ref\TextAnalyzer.dll
+C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\net6.0-windows\TextInfo.g.cs
+C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\net6.0-windows\TextInfo.baml

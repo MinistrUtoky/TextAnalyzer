@@ -22,10 +22,11 @@
         </Grid.RowDefinitions>
         <Button Content="Back" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="92" FontSize="13px" Click="returnBack"/>
 
-        <TextBox x:Name="filePath" VerticalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="1" TextWrapping="NoWrap" Text="" BorderThickness="2" FontSize="18px" VerticalAlignment="Center" Width="371" Height="38" TextChanged="filePathChanged"/>
-        <Button Grid.Column="1" Content="Open file" HorizontalAlignment="Left" Margin="369,0,0,0" Grid.Row="2" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="39" Width="89" FontSize="13px"/>
-        <Button Grid.Column="1" Content="Proceed" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="150" Height="30"/>
-        
+        <TextBox x:Name="filePath" VerticalContentAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="1" TextWrapping="NoWrap" Text="" BorderThickness="2" FontSize="18px" VerticalAlignment="Center" Width="371" Height="38"/>
+        <Button Grid.Column="1" Content="Browse a file" HorizontalAlignment="Left" Margin="369,0,0,0" Grid.Row="2" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="39" Width="89" FontSize="13px" Click="fileBrowser_Click"/>
+        <Button x:Name="proceedButton" Content="Proceed" Grid.Column="1"  HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="150" Height="30" Click="proceedButton_Click"/>
+
+        <TextBlock x:Name="errorMessageSpace" Grid.Column="1" HorizontalAlignment="Center" Foreground="Red" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center"/>
         <TextBlock Grid.Column="2" Grid.Row="3" FontSize="9px" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontStyle="Oblique" FontWeight="Bold">Text Analyzer 3000</TextBlock>
 
     </Grid>

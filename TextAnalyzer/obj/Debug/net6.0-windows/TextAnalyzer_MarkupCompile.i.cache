@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\App.xaml
-3-1950224087
+4-713630570
 
-7-1567310317
+8-2142394662
 194-200944676
-MainWindow.xaml;TextFileAnalyzer.xaml;TextInputAnalyzer.xaml;
+MainWindow.xaml;TextFileAnalyzer.xaml;TextInfo.xaml;TextInputAnalyzer.xaml;
 
-False
+True
 

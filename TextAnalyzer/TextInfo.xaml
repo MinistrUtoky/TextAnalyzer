@@ -1,0 +1,50 @@
+﻿<Window x:Class="TextAnalyzer.TextInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextAnalyzer"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen"
+        Title="TextInfo" Height="270" Width="270">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap">Number of words:</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap">Number of unique words:</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap">Top-10 longest words:</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" TextWrapping="Wrap">Top-10 most popular words:</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="0" TextWrapping="Wrap">Character percentile:</TextBlock>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="0" Grid.Column="1">
+            <TextBlock x:Name="wordsNumber" TextWrapping="Wrap">
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1" Grid.Column="1">
+            <TextBlock x:Name="uniqueWordsNumber" TextWrapping="Wrap">
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="2" Grid.Column="1">
+            <TextBlock x:Name="longestWords" TextWrapping="Wrap">
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="3" Grid.Column="1">
+            <TextBlock x:Name="mostPopularWords" TextWrapping="Wrap">
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="4" Grid.Column="1">
+            <TextBlock x:Name="characterPercentile" TextWrapping="Wrap">
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Window>
