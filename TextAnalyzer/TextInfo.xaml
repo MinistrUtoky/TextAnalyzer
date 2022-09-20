@@ -22,7 +22,7 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap">Number of words:</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap">Number of unique words:</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap">Unique words:</TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap">Top-10 longest words:</TextBlock>
         <TextBlock Grid.Row="3" Grid.Column="0" TextWrapping="Wrap">Top-10 most popular words:</TextBlock>
         <TextBlock Grid.Row="4" Grid.Column="0" TextWrapping="Wrap">Character percentile:</TextBlock>

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\obj\Debug\net6.0-windows\
+C:\Users\Viqtop\Downloads\TextAnalyzer-main (1)\TextAnalyzer-main\TextAnalyzer\obj\Debug\net6.0-windows\
 TextAnalyzer
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Viqtop\source\repos\TextAnalyzer\TextAnalyzer\App.xaml
+C:\Users\Viqtop\Downloads\TextAnalyzer-main (1)\TextAnalyzer-main\TextAnalyzer\App.xaml
 4-713630570
 
 6-2050490651
-194-200944676
+194-1103864946
 MainWindow.xaml;TextFileAnalyzer.xaml;TextInfo.xaml;TextInputAnalyzer.xaml;
 
 False
