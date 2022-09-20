@@ -49,19 +49,19 @@ namespace TextAnalyzer.images
 
         private void proceedButton_Click(object sender, RoutedEventArgs e)
         {
-            if (System.IO.File.Exists(filePath.Text))
-            {
-                _fileContent = System.IO.File.ReadAllText(filePath.Text);
-                TextInfo tI = new TextInfo();
-                tI.analyzeText(_fileContent);
-                tI.ShowDialog();
-            }
-            else
-            {
-                _fileContent = null;
-                errorMessageSpace.Text = "FILE PATH DOES NOT EXIST!";
-                filePath.Text = _startPath;
-            }
+            if (System.IO.Path.GetExtension(filePath.Text) == ".txt")
+                if (System.IO.File.Exists(filePath.Text))
+                {
+                    _fileContent = System.IO.File.ReadAllText(filePath.Text);
+                    TextInfo tI = new TextInfo();
+                    tI.analyzeText(_fileContent);
+                    tI.ShowDialog();
+                    return;
+                }
+                else errorMessageSpace.Text = "FILE PATH DOES NOT EXIST!";
+            else errorMessageSpace.Text = "TEXT ANALYZER 3000 ACCEPTS ONLY .TXT FILES";
+            _fileContent = null;
+            filePath.Text = _startPath;
         }
     }
 }

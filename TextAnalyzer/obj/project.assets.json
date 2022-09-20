@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Viqtop\\source\\repos\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.csproj",
+      "projectUniqueName": "C:\\Users\\Viqtop\\Downloads\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.csproj",
       "projectName": "TextAnalyzer",
-      "projectPath": "C:\\Users\\Viqtop\\source\\repos\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.csproj",
+      "projectPath": "C:\\Users\\Viqtop\\Downloads\\TextAnalyzer\\TextAnalyzer\\TextAnalyzer.csproj",
       "packagesPath": "C:\\Users\\Viqtop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Viqtop\\source\\repos\\TextAnalyzer\\TextAnalyzer\\obj\\",
+      "outputPath": "C:\\Users\\Viqtop\\Downloads\\TextAnalyzer\\TextAnalyzer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
